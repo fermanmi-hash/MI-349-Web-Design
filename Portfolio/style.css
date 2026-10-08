@@ -80,3 +80,57 @@ p {
     color: var(--secondary-text);
     font-size: 17px;
 }
+
+img { 
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+#home img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#projects img {
+    width: 400px;
+}
+
+article {
+    background-color: var(--background-color);
+       padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25)
+}
+
+article:hover {
+transform: translateY(-3px);
+}
+
+#contact a {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid var(--primary-color);
+    padding: 8px 14px;
+    border-radius: 8px;
+}
+
+contact a:hover {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+}
+
+footer {
+    background-color: var(--section-color);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    font-size: 14px;
+}
