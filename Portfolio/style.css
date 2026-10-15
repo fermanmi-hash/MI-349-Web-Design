@@ -6,7 +6,7 @@
     --section-color: #245c4b;
     --primary-color: #55d6be;
     --text-color: #ffffff;
-    --secondary-text: #d5e8e2;
+    --secondary-text: #263b35;
 }
 
 
@@ -26,7 +26,7 @@ header {
 }
 
 h1 {
-    color: var(--section-color);
+    color: var(--primary-color);
     font-size: 42px;
     margin: 0 0 15px 0;
 }
@@ -72,13 +72,18 @@ h2 {
 }
 
 h3 {
-    color: var(--primary-color);
+    color: #176b5b;
     font-size: 22px;
 }
 
 p {
-    color: var(--secondary-text);
+    color: #263b35;
     font-size: 17px;
+    line-height: 1.8;
+}
+
+article p {
+    color: #263b35;
 }
 
 img { 
