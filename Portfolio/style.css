@@ -26,7 +26,7 @@ header {
 }
 
 h1 {
-    color: var(--primary-color);
+    color: var(--section-color);
     font-size: 42px;
     margin: 0 0 15px 0;
 }
