@@ -163,6 +163,33 @@ article h3{
     color:#184538;
 }
 
+
+/*
+AI PROMPT USED:
+
+Update only the CSS for the Projects section of my existing
+student portfolio website. Do not modify any HTML files.
+
+The site uses a dark green background, lighter green sections,
+teal accents, white text, and the Roboto font. Keep this
+existing visual style consistent.
+
+Use CSS Grid to arrange the project cards. On small screens,
+display one project card per row. At a minimum width of 600px,
+display two project cards side by side. Keep the Projects
+heading spanning the full width of the grid.
+
+Make the cards fit their grid columns without causing
+horizontal overflow. Make project images responsive so
+they stay within their cards and preserve their aspect ratio.
+
+
+The CSS should work with the existing section of
+"projects" and its h2 heading and article elements.
+*/
+
+
+
 nav {
     display: flex;
     flex-wrap: wrap;
