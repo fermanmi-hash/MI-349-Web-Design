@@ -104,11 +104,22 @@ img {
 }
 
 article {
-    background-color: var(--background-color);
-       padding: 20px;
+    background-color: #d5e8e2;
+    color:#263b35;
+    padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25)
+}
+
+article h3 {
+    color: #184538;
+}
+
+article p {
+    color: #263b35;
+    font-size: 17px;
+    line-height: 1.8;
 }
 
 article:hover {
@@ -138,6 +149,18 @@ footer {
 
 footer p {
     font-size: 14px;
+}
+
+section > p {
+    color: #ffffff;
+}
+
+article p {
+    color:#263b35;
+}
+
+article h3{
+    color:#184538;
 }
 
 nav {
