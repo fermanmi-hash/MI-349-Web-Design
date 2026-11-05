@@ -301,4 +301,27 @@ img {
     h1 {
         font-size: 46px;
     }
+
+    /* these are the fixes for the page speed insights accessability score*/
+    
+    #projects article {
+        background-color: #d5e8e2;
+        color:#184538;
+    }
+
+    #projects article h3 {
+        color: #184538;
+    }
+
+    #projects article p {
+        color: #184538;
+    }
+
+    footer {
+        background-color: #184538;
+    }
+
+    footer p {
+        color: #ffffff;
+    }
 }
