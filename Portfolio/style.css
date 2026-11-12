@@ -324,4 +324,84 @@ img {
     footer p {
         color: #ffffff;
     }
+
+        /* Dark and Light Mode Button */
+
+    #theme-toggle {
+        background-color: #55d6be;
+        color: #184538;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 8px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    #theme-toggle:hover {
+        background-color: #ffffff;
+    }
+
+
+    /* Light Mode Colors */
+
+    body.light-mode {
+        background-color: #e8f5f0;
+        color: #184538;
+    }
+
+    .light-mode header,
+    .light-mode footer {
+        background-color: #c4e3d7;
+    }
+
+    .light-mode section {
+        background-color: #ffffff;
+    }
+
+    .light-mode h1,
+    .light-mode h2 {
+        color: #184538;
+    }
+
+    .light-mode h2 {
+        border-bottom-color: #184538;
+    }
+
+    .light-mode section > p {
+        color: #184538;
+    }
+
+    .light-mode nav a {
+        color: #184538;
+    }
+
+    .light-mode nav a:hover {
+        background-color: #184538;
+        color: #ffffff;
+    }
+
+    .light-mode article {
+        background-color: #d5e8e2;
+    }
+
+    .light-mode article h3,
+    .light-mode article p {
+        color: #184538;
+    }
+
+    .light-mode #contact a {
+        color: #184538;
+        border-color: #184538;
+    }
+
+    .light-mode #contact a:hover {
+        background-color: #184538;
+        color: #ffffff;
+    }
+
+    .light-mode footer p {
+        color: #184538;
+    }
+
 }
