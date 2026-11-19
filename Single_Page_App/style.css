@@ -1,0 +1,142 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EDE0D4;
+    color: #4A2C20;
+    text-align: center;
+}
+
+
+
+header {
+    background-color: #5C4033;
+    color: #F5E6D3;
+    padding: 35px 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 17px;
+}
+
+/* Main content */
+
+main {
+    padding: 40px 20px;
+}
+
+.dog-container {
+    background-color: #DDB892;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #8B5E3C;
+    border-radius: 0;
+    box-shadow: 0 4px 12px rgba(74, 44, 32, 0.15);
+}
+
+.dog-container h2 {
+    color: #4A2C20;
+}
+
+/* breed dropdown */
+
+label {
+    display: block;
+    margin: 20px 0 10px;
+    font-weight: bold;
+}
+
+select {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    margin: 0 auto 20px;
+    border: 2px solid #8B5E3C;
+    border-radius: 0;
+    font-size: 16px;
+    background-color: #F5E6D3;
+    color: #4A2C20;
+}
+
+/* generate dog button */
+
+button {
+    background-color: #6F4E37;
+    color: #FFF4E6;
+    border: 2px solid #4A2C20;
+    border-radius: 0;
+    padding: 14px 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8B5E3C;
+}
+
+button:focus-visible,
+select:focus-visible,
+a:focus-visible {
+    outline: 3px solid #4A2C20;
+    outline-offset: 3px;
+}
+
+button:disabled {
+    background-color: #A58B77;
+    cursor: wait;
+}
+
+/* pictures of all the dogs */
+
+.image-container {
+    margin-top: 20px;
+}
+
+#dog-image {
+    width: 100%;
+    max-width: 400px;
+    max-height: 350px;
+    object-fit: contain;
+    border-radius: 0;
+    border: 2px solid #8B5E3C;
+}
+
+#dog-image[hidden] {
+    display: none;
+}
+
+#breed-name {
+    color: #4A2C20;
+}
+
+#status {
+    margin-top: 20px;
+    min-height: 20px;
+}
+
+
+footer {
+    background-color: #5C4033;
+    color: #F5E6D3;
+    padding: 20px;
+}
+
+footer a {
+    color: #F5E6D3;
+}
+
+footer a:hover {
+    color: #FFFFFF;
+}
+
+
